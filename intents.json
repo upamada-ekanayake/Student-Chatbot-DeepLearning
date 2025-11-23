@@ -1,0 +1,90 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Is anyone there?"
+            ],
+            "responses": [
+                "Hello! I am here to listen.",
+                "Hi there. How are you feeling today?",
+                "Greetings. You are in a safe space."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "I am leaving"
+            ],
+            "responses": [
+                "Goodbye. Take care of yourself.",
+                "See you soon. Remember to breathe.",
+                "Have a peaceful day."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That helps",
+                "Thanks a lot"
+            ],
+            "responses": [
+                "You are welcome.",
+                "I am glad I could help.",
+                "Anytime. I am here for you."
+            ]
+        },
+        {
+            "tag": "sadness",
+            "patterns": [
+                "I feel sad",
+                "I am broken",
+                "I feel lonely",
+                "I am depressed",
+                "I want to cry"
+            ],
+            "responses": [
+                "I am sorry you feel this way. It is okay to cry.",
+                "Loneliness is tough. Try calling a friend or listening to music.",
+                "I hear you. You are not alone in this."
+            ]
+        },
+        {
+            "tag": "stress",
+            "patterns": [
+                "I am stressed",
+                "I have so much work",
+                "I am overwhelmed",
+                "I can't handle this"
+            ],
+            "responses": [
+                "Take a deep breath. Focus on one thing at a time.",
+                "Stress is a sign you care, but you need rest too.",
+                "Try the 4-7-8 breathing technique: Inhale for 4, hold for 7, exhale for 8."
+            ]
+        },
+        {
+            "tag": "motivation",
+            "patterns": [
+                "I can't do this",
+                "I want to give up",
+                "I am a failure",
+                "I have no motivation"
+            ],
+            "responses": [
+                "You are stronger than you think. Just take one small step.",
+                "Failure is just learning. Be kind to yourself.",
+                "Don't give up. Rest if you must, but don't quit."
+            ]
+        }
+    ]
+}
